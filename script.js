@@ -20,10 +20,6 @@ let hasil;
         else if (player > comp){
             hasil = 'terlalu tinggi';
         } 
-        // jika player memasukkan angka asal atau selain angka
-        else{
-            hasil = 'SALAH! silahkan pilih angka 1 - 10';
-        };
 
 // menentukan hasil 
 alert('kamu memilih angka ' + player + ' dan komputer memilih angka ' + comp + ' pilihan kamu ' + hasil);
